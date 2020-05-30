@@ -11,7 +11,7 @@ header {
 
 nav {
     position: absolute;
-    top: 120px;
+    top: 60px;
     right: 0;
 }
 
@@ -81,4 +81,16 @@ nav a:hover {
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
