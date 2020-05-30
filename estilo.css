@@ -10,8 +10,14 @@ body {
     padding: 30px;
 }
 
-h1,
-h2,
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
 p {
     text-align: center;
 }
