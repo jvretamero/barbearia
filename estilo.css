@@ -19,3 +19,7 @@ p {
 em strong {
     color: red;
 }
+
+.beneficio {
+    font-style: italic;
+}
