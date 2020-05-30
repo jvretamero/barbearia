@@ -1,3 +1,13 @@
+body {
+    background: #CCC;
+}
+
+h1,
 p {
     text-align: center;
+}
+
+/* Todos os STRONG dentro de EM */
+em strong {
+    color: red;
 }
