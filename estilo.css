@@ -7,6 +7,10 @@ p {
     text-align: center;
 }
 
+#missao {
+    font-size: 20px;
+}
+
 /* Todos os STRONG dentro de EM */
 em strong {
     color: red;
