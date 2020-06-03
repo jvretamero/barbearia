@@ -177,13 +177,33 @@ th {
     font-style: italic;
 }
 
-.mapa {
+.mapa,
+.beneficios {
     padding: 3em 0;
 }
 
 .mapa p {
     text-align: center;
     margin: 0 0 2em;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5em;
+}
+
+.itens:first-child {
+    font-weight: bold;
 }
 
 .imagem-beneficios {
@@ -198,5 +218,5 @@ th {
 
 .video {
     width: 550px;
-    margin: 1em auto;
+    margin: 2em auto;
 }
