@@ -99,11 +99,6 @@ footer {
     margin: 20px 0 0;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -165,6 +160,13 @@ th {
     clear: left;
 }
 
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -177,14 +179,23 @@ th {
     font-style: italic;
 }
 
-.mapa,
-.beneficios {
+.mapa {
     padding: 3em 0;
 }
 
 .mapa p {
     text-align: center;
     margin: 0 0 2em;
+}
+
+.mapa .mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE 10%, #888);
 }
 
 .conteudo-beneficios {
