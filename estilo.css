@@ -158,6 +158,7 @@ th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
 }
 
 .principal {
@@ -224,6 +225,13 @@ th {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .75);
+}
+
+.imagem-beneficios:hover {
+    opacity: .3;
 }
 
 .utensilios {
